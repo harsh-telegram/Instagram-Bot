@@ -63,7 +63,9 @@ async def start(bot, cmd):
 				[
 					[
 						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh')
-                        			InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot")
+					]
+                        		[
+						InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
                         			InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
