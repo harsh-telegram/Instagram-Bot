@@ -42,9 +42,7 @@ You have two Options:
 Just send any instagram username.
 
 For Example:
-<code>samantharuthprabhuoffl</code>
-<code>subin_p_s_</code>
-<code>_chill_manh_7</code>
+<code>rashmika_mandanna</code>
 
 
 2. From URL:
@@ -65,7 +63,7 @@ For Example:
 /account - Shows the details of logged in account.
 
 /posts <username> - Download posts of any username. Use /posts to download own posts or <code> /posts <username> </code>for others.
-Example : <code>/posts samantharuthprabhuoffl</code>
+Example : <code>/posts rashmika_mandanna</code>
 
 /igtv <username> - Download IGTV videos from given username. If no username given, downloads your IGTV.
 
@@ -76,7 +74,7 @@ Example: <code>/feed 10</code> to download latest 10 posts from feed.
 Example: <code>/saved 10</code> to download latest 10 saved posts.
 
 /followers <username> - Get a list of all followers of given username. If no username given, then your list will be retrieved.
-Example: <code>/followers samantharuthprabhuoffl</code>
+Example: <code>/followers rashmika_mandanna</code>
 
 /followees <username> - Get a list of all followees of given username. If no username given, then your list will be retrieved.
 
