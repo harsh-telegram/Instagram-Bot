@@ -113,9 +113,9 @@ async def upload(m, bot, chat_id, dir):
     totalvideo=len(VDO)
     TOTAL=totalpics+totalvideo+totalgif
     if TOTAL==0:
-        await m.edit("There are nothing to Download.")
+        await m.edit("There is nothing to Download.")
         return
-    await m.edit("Now Starting Uploading to Telegram...")
+    await m.edit("Uploading to Telegram started...")
     await m.pin(disable_notification=False, both_sides=True)
 
 
@@ -189,17 +189,7 @@ async def upload(m, bot, chat_id, dir):
     await bot.send_message(
         chat_id=chat_id,
         text=f"Succesfully Uploaded {up} Files to Telegram.\nIf you found me helpfull Join My Updates Channel",
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-					InlineKeyboardButton("👨🏼‍💻Support", url='https://t.me/i_izharsh')
-				],
-				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot")
-				]
-			]
-			)
-		)
+        )
     total=TOTAL
     up=0
     rm=TOTAL
