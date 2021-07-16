@@ -59,7 +59,7 @@ bot.send(
             ),
             types.BotCommand(
                 command="login",
-                description="login into your Instagram account"
+                description="Login into your Instagram account"
             ),
             types.BotCommand(
                 command="logout",
