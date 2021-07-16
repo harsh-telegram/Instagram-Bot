@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 subinps
+#Copyright (c) 2021 harsh-telegram
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -117,7 +117,7 @@ async def cb_handler(bot: Client, query: CallbackQuery):
 
     elif query.data.startswith("video"):
         if mediacount==0:
-            await query.edit_message_text("There are no posts by the user")
+            await query.edit_message_text("This user hasn't posted anything yet.")
             return
         m= await query.edit_message_text("Starting Downloading..\nThis may take longer time Depending upon number of posts.")    
         dir=f"{query.from_user.id}/{username}"
@@ -154,7 +154,7 @@ async def cb_handler(bot: Client, query: CallbackQuery):
         )
     elif query.data.startswith("yesigtv"):
         if igtvcount==0:
-            await query.edit_message_text("There are no IGTV posts by the user")
+            await query.edit_message_text("There is no IGTV video by the user")
             return
         m= await query.edit_message_text("Starting Downloading..\nThis may take longer time Depending upon number of posts.")
         dir=f"{query.from_user.id}/{username}"
