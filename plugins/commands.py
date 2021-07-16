@@ -43,17 +43,14 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh')
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot"),
+						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     ],
                     [
-                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
-
+                        InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
                     ]
 					
 				]
@@ -66,15 +63,13 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh')
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
 
                     ]
 					
@@ -91,14 +86,12 @@ async def help(bot, cmd):
 		reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-					InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122"),
-					InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+					InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh'),
 					
 				],
 				[
-					InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+					InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot"),
+					InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
 				]
 			]
 			)
@@ -113,16 +106,14 @@ async def stop(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-						InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")	
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh'),	
 					],
                     [
-                        InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+                        InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot"),
+						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     ],
                     [
                         InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-						InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
 
                     ]
 					
