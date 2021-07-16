@@ -44,6 +44,7 @@ Just send any instagram username.
 For Example:
 <code>revathi.05</code>
 <code>rashmika_mandanna</code>
+<code>katrinakaif</code>
 
 
 2. From URL:
@@ -64,7 +65,7 @@ For Example:
 /account - Shows the details of logged in account.
 
 /posts <username> - Download posts of any username. Use /posts to download own posts or <code> /posts <username> </code>for others.
-Example : <code>/posts rashmika_mandanna</code>
+Example : <code>/posts revathi.05</code>
 
 /igtv <username> - Download IGTV videos from given username. If no username given, downloads your IGTV.
 
@@ -75,7 +76,7 @@ Example: <code>/feed 10</code> to download latest 10 posts from feed.
 Example: <code>/saved 10</code> to download latest 10 saved posts.
 
 /followers <username> - Get a list of all followers of given username. If no username given, then your list will be retrieved.
-Example: <code>/followers rashmika_mandanna</code>
+Example: <code>/followers revathi.05</code>
 
 /followees <username> - Get a list of all followees of given username. If no username given, then your list will be retrieved.
 
@@ -97,15 +98,14 @@ Example: <code>/followers rashmika_mandanna</code>
 <b>Helo, [{}](tg://user?id={})
 
 This is a bot of @i_izharsh to manage his Instagram account. 
-I can only work for my master [{}](tg://user?id={}).
-But you can Deploy the same bot for your use from the below source code.
+I can only work for my master but if you want you can Deploy the same bot for your use from the below source code.
 
 Use /help to know What I can Do?</b>
 """
     HOME_TEXT_OWNER = """
-<b>Helo, [{}](tg://user?id={})
+<b>Helo, @i_izharsh
 I am your assistant to manage your Instagram account.
 
 Use /help to know what I can do for you.</b>
 """
-
+#to print insta user id: [{}](tg://user?id={})
