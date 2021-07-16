@@ -188,7 +188,7 @@ async def upload(m, bot, chat_id, dir):
     await m.unpin()
     await bot.send_message(
         chat_id=chat_id,
-        text=f"Succesfully Uploaded {up} Files to Telegram.\nIf you found me helpfull Join My Updates Channel",
+        text=f"Succesfully Uploaded {up} Files to Telegram. 🎉",
         )
     total=TOTAL
     up=0
