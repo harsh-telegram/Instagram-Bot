@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 subinps
+#Copyright (c) 2021 harsh-telegram
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -40,16 +40,14 @@ insta = Config.L
 buttons=InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps'),
-            InlineKeyboardButton("🤖Other Bots", url="https://t.me/subin_works/122")
+            InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/subinps')
         ],
         [
-            InlineKeyboardButton("🔗Source Code", url="https://github.com/subinps/Instagram-Bot"),
-            InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot")
+            InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot"),
+            InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
         ],
         [
-            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin"),
-            InlineKeyboardButton("⚙️Update Channel", url="https://t.me/subin_works")
+            InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
         ]
 					
     ]
@@ -174,7 +172,7 @@ async def followers(bot, message):
         text_file = open(f"{username}'s followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followers.txt", caption=f"{name}'s followers\n")
         os.remove(f"./{username}'s followers.txt")
 
 
@@ -219,7 +217,7 @@ async def followees(bot, message):
         text_file = open(f"{username}'s followees.txt", "w")
         text_file.write(followees)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s followees.txt", caption=f"{name}'s followees\n")
         os.remove(f"./{username}'s followees.txt")
 
 
@@ -278,7 +276,7 @@ async def fans(bot, message):
         text_file = open(f"{username}'s fans.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s fans.txt", caption=f"{name}'s fans\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s fans.txt", caption=f"{name}'s fans\n")
         os.remove(f"./{username}'s fans.txt")
 
 
@@ -334,7 +332,7 @@ async def nfans(bot, message):
         text_file = open(f"{username}'s Non_followers.txt", "w")
         text_file.write(followers)
         text_file.close()
-        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n\nA Project By [XTZ_Bots](https://t.me/subin_works)")
+        await bot.send_document(chat_id=chat_id, document=f"./{username}'s Non_followers.txt", caption=f"{name}'s Non_followers\n")
         os.remove(f"./{username}'s Non_followers.txt")
 
 
