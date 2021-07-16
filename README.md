@@ -1,12 +1,12 @@
-# Instagram Manager Bot
+# Your Instagram Manager Bot
 The most advanced Instagram Downloader Bot.
 
 ```
 Please fork this repository don't import code
 Made with Python3
-(C) @subinps
+(C) harsh-telegram
 Copyright permission under MIT License
-License -> https://github.com/subinps/Instagram-Bot/blob/main/LICENSE
+License -> https://github.com/harsh-telegram/Instagram-Bot/blob/main/LICENSE
 ```
 
 
@@ -40,7 +40,7 @@ You can Download almost anything From your Instagram Account.
 /account - Shows the details of logged in account.
 
 /posts <username> - Download posts of any username. Use /posts to download own posts or  /posts <username> for others.
-Example : /posts samantharuthprabhuoffl
+Example : /posts revathi.05
 
 /igtv <username> - Download IGTV videos from given username. If no username given, downloads your IGTV.
 
@@ -51,7 +51,7 @@ Example: /feed 10 to download latest 10 posts from feed.
 Example: /saved 10 to download latest 10 saved posts.
 
 /followers <username> - Get a list of all followers of given username. If no username given, then your list will be retrieved.
-Example: /followers samantharuthprabhuoffl
+Example: /followers revathi.05
 
 /followees <username> - Get a list of all followees of given username. If no username given, then your list will be retrieved.
 
@@ -70,11 +70,9 @@ Example: /followers samantharuthprabhuoffl
 ```
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/subinps/Instagram-Bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot)
 
-Watch This [Video](https://youtu.be/aVkmoVPSOYI) Tutorial For Better Understanding.
-
-While Deploying fill `INSTA_SESSIONFILE_ID`, either by running [generate_instagram_session.py](https://github.com/subinps/Instagram-Bot/blob/main/generate_instagram_session.py]) in terminal or using /login after deploy or use [repl.it](https://replit.com/@subinps/generateInstagramSession)
+While Deploying fill `INSTA_SESSIONFILE_ID`, either by running [generate_instagram_session.py](https://github.com/harsh-telegram/Instagram-Bot/blob/main/generate_instagram_session.py]) in terminal or using /login after deploy.
 
 For Generating Session after deployment, You Must leave the Variable as blank and fill manually after generating `INSTA_SESSIONFILE_ID` from your bot by sending /login.
 
@@ -96,20 +94,11 @@ python3 main.py
 * `BOT_TOKEN` Bot token from [@BotFather](https://telegram.dog/BotFather)
 * `OWNER_ID` Telegram Id of Owner.
 * `INSTAGRAM_USERNAME` Your Instagram username
-* `INSTA_SESSIONFILE_ID` Your Instagram session file ID. Generate either by running [generate_instagram_session.py](https://github.com/subinps/Instagram-Bot/blob/main/generate_instagram_session.py]) in terminal or using /login after deploy or use [repl.it](https://replit.com/@subinps/generateInstagramSession)
-
-
-### Note
-
-```
-Contributions are welcomed, But Kanging and editing a few lines wont make you a Developer.
-Fork the repo, Do not Import code.
-
-```
+* `INSTA_SESSIONFILE_ID` Your Instagram session file ID. Generate either by running [generate_instagram_session.py](https://github.com/subinps/Instagram-Bot/blob/main/generate_instagram_session.py]) in terminal or using /login after deploy.
 
 #### Support
 
-Connect Me On [Telegram](https://telegram.dog/subinps_bot)
+Connect Me On [Telegram](https://telegram.dog/i_izharsh)
 
 
 ```
