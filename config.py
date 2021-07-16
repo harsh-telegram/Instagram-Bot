@@ -42,6 +42,7 @@ You have two Options:
 Just send any instagram username.
 
 For Example:
+<code>revathi.05</code>
 <code>rashmika_mandanna</code>
 
 
@@ -50,7 +51,7 @@ For Example:
 You can also sent a post link to download the post or video.
 
 For Example:
-<code>https://www.instagram.com/p/CL4QbUiLRNW/?utm_medium=copy_link</code>
+<code>https://www.instagram.com/p/CP-shqHjtRi/?utm_medium=copy_link</code>
 
 
 <b>Available Commands and Usage</b>
@@ -95,7 +96,7 @@ Example: <code>/followers rashmika_mandanna</code>
     HOME_TEXT = """
 <b>Helo, [{}](tg://user?id={})
 
-This is a bot of [{}](www.instagram.com/{}) to manage his Instagram account. 
+This is a bot of @i_izharsh to manage his Instagram account. 
 I can only work for my master [{}](tg://user?id={}).
 But you can Deploy the same bot for your use from the below source code.
 
