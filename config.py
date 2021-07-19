@@ -99,6 +99,13 @@ Example: <code>/followers revathi.05</code>
 
 🙇🏻‍♂️ <b>Contact Owner: @i_izharsh</b> 
 """
+    START_TEXT_PUBLIC = """
+Hey [{}](tg://user?id={}), 🤘
+I am IDM (Insta Download Manager) just send me any link from
+Instagram and I'll download that for you. ❤️
+
+⚠️ If not working? Contact @i_izharsh. 
+"""
     HOME_TEXT_OLD = """
 <b>Hey [{}](tg://user?id={}), 🤘
 
