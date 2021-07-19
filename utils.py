@@ -49,8 +49,8 @@ async def download_insta(command, m, dir):
             break
         if output:
             datetime_ist = datetime.now(IST)
-            ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
-            msg="CURRENT_STATUS ⚙️ : <code>{}</code>\nLast Updated :<code>{}</code>".format(output.decode("UTF8"), ISTIME)
+            ISTIME = datetime_ist.strftime("%d %B %Y at %I:%M:%S %p")
+            msg="<b>CURRENT_STATUS ⚙️:</b> <code>Trying downloading, it may take upto 2mins...</code>\n<b>Last Updated:</b> <code>{}</code>", ISTIME) #.format(output.decode("UTF8")
             msg=msg.replace(f'{dir}/', 'DOWNLOADED : ')
             try:
                 await m.edit(msg)
@@ -64,8 +64,8 @@ async def download_insta(command, m, dir):
             break
         if error:
             datetime_ist = datetime.now(IST)
-            ISTIME = datetime_ist.strftime("%I:%M:%S %p - %d %B %Y")
-            ermsg="ERROR ❌ : <code>{}</code>\nLast Updated : <code>{}</code>".format(error.decode("UTF8"), ISTIME)
+            ISTIME = datetime_ist.strftime("%d %B %Y at %I:%M:%S %p")
+            ermsg="ERROR ❌ : <code>{}</code>\nLast Updated: <code>{}</code>".format(error.decode("UTF8"), ISTIME)
             try:
                 await m.edit(ermsg)
             except:
