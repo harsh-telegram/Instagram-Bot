@@ -45,14 +45,11 @@ async def login(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh')
-					],
-                    			[
-                        			InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
+						InlineKeyboardButton("👨🏼‍💻 Owner", url='https://t.me/i_izharsh'),
+						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
@@ -170,14 +167,11 @@ async def logout(bot, message):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh')
-					],
-                    			[
-                        			InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot"),
-						InlineKeyboardButton("🧩Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
+						InlineKeyboardButton("👨🏼‍💻 Owner", url='https://t.me/i_izharsh'),
+						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
