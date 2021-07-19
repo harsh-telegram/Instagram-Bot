@@ -62,9 +62,7 @@ async def start(bot, cmd):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh')
-					]
-                        		[
+						InlineKeyboardButton("👨🏼‍💻Developer", url='https://t.me/i_izharsh'),
 						InlineKeyboardButton("🔗Source Code", url="https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
