@@ -51,7 +51,7 @@ async def account(bot, message):
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
