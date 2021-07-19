@@ -95,7 +95,7 @@ Example: <code>/followers revathi.05</code>
 
 """
     HOME_TEXT = """
-<b>No!</b> You can't use these features right now due to owner's restrictions.
+<b>No!</b> You can't use these features right now due to owner's restriction.
 
 🙇🏻‍♂️ <b>Contact Owner: @i_izharsh</b> 
 """
