@@ -32,13 +32,13 @@ OWNER=Config.OWNER
 HOME_TEXT=Config.HOME_TEXT
 HOME_TEXT_OWNER=Config.HOME_TEXT_OWNER
 HELP=Config.HELP
-
+START_TEXT_PUBLIC = Config.START_TEXT_PUBLIC
 
 @Client.on_message(filters.command("start") & filters.private)
 async def start(bot, cmd):
 	if str(cmd.from_user.id) != OWNER:	
 		await cmd.reply_text(
-			HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id, USER, USER, USER, OWNER), 
+			START_TEXT_PUBLIC.format(cmd.from_user.first_name, cmd.from_user.id, USER, USER, USER, OWNER), 
 			disable_web_page_preview=True,
 			reply_markup=InlineKeyboardMarkup(
 				[
@@ -47,7 +47,7 @@ async def start(bot, cmd):
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
@@ -63,7 +63,7 @@ async def start(bot, cmd):
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
@@ -82,7 +82,7 @@ async def help(bot, cmd):
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
@@ -101,7 +101,7 @@ async def stop(bot, cmd):
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
                     			[
-                        			InlineKeyboardButton("👨 🏼‍🦯How To Use?", callback_data="help#subin")
+                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
                     			]	
 				]
 			)
