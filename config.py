@@ -95,7 +95,12 @@ Example: <code>/followers revathi.05</code>
 
 """
     HOME_TEXT = """
-<b>Helo, [{}](tg://user?id={})
+<b>No!</b> You can't use these features right now due to owner's restrictions.
+
+🙇🏻‍♂️ <b>Contact Owner: @i_izharsh</b> 
+"""
+    HOME_TEXT_OLD = """
+<b>Hey [{}](tg://user?id={}), 🤘
 
 This is a bot of @i_izharsh to manage his Instagram account. 
 I can only work for my master but if you want you can Deploy the same bot for your use from the below source code.
@@ -103,13 +108,16 @@ I can only work for my master but if you want you can Deploy the same bot for yo
 Use /help to know What I can Do?</b>
 """
     HOME_TEXT_OWNER = """
-<b>Helo, @i_izharsh
+<b>Hey [{}](tg://user?id={}), 🤘
 I am your assistant to manage your Instagram account.
 
 Use /help to know what I can do for you.</b>
 """
     UNAUTH_TEXT = """
-No! You can't use these features right now due to owner's restrictions.
+<b>No! You can't use these features right now 
+due to owner's restrictions.</b>
+
 If you want to use full features of this bot then contact @i_izharsh,
-he will guide you to deploy your own bot."""
+he will guide you to deploy your own bot. 🎉
+"""
 #to print insta user id: [{}](tg://user?id={})
