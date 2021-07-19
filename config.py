@@ -108,4 +108,8 @@ I am your assistant to manage your Instagram account.
 
 Use /help to know what I can do for you.</b>
 """
+    UNAUTH_TEXT = """
+No! You can't use these features right now due to owner's restrictions.
+If you want to use full features of this bot then contact @i_izharsh,
+he will guide you to deploy your own bot."""
 #to print insta user id: [{}](tg://user?id={})
