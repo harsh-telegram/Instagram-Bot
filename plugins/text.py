@@ -117,6 +117,7 @@ async def account(bot, message):
 
 @Client.on_message(filters.text & filters.private & filters.incoming)
 async def _insta_post_batch(bot, message):
+'''
     if str(message.from_user.id) != OWNER:
         await message.reply_text(
             HOME_TEXT.format(message.from_user.first_name, message.from_user.id, USER, USER, USER, int(OWNER)),
@@ -137,6 +138,7 @@ async def _insta_post_batch(bot, message):
 			)
 		)
         return
+'''
     if 1 not in STATUS:
         await message.reply_text("You Must Login First /login ")
         return
