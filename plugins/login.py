@@ -1,6 +1,6 @@
 #MIT License
 
-#Copyright (c) 2021 harsh-telegram
+#Copyright (c) 2021
 
 #Permission is hereby granted, free of charge, to any person obtaining a copy
 #of this software and associated documentation files (the "Software"), to deal
@@ -48,10 +48,7 @@ async def login(bot, message):
 						InlineKeyboardButton("👨🏼‍💻 Owner", url='https://t.me/i_izharsh'),
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
-                    			[
-                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
-                    			]	
-				]
+                    		]
 			)
 		)
         return
@@ -170,10 +167,7 @@ async def logout(bot, message):
 						InlineKeyboardButton("👨🏼‍💻 Owner", url='https://t.me/i_izharsh'),
 						InlineKeyboardButton("🧩 Deploy Own Bot", url="https://heroku.com/deploy?template=https://github.com/harsh-telegram/Instagram-Bot")
                     			],
-                    			[
-                        			InlineKeyboardButton("🤷🏻‍♂️ How To Use?", callback_data="help#subin")
-                    			]	
-				]
+                    		]
 			)
 		)
         return
